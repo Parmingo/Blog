@@ -1,0 +1,20 @@
+* {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    background: url('images/image.jpg') rgba(0,0,0, 0.6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 991px) {
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
